@@ -61,3 +61,25 @@ For example:
 ``` bash
 vue init johnsonGong/vuex-templ-pwa demo-vux-project
 ```
+
+
+### 大争科技(DaZhengKeJi)-更新记录:
+[公司网站](http://www.dazhengtech.com/)
+
+``` bash
+# 2018-04-10
+## 整理package依赖
+# 1. 删除-- 去除 PC端依赖
+"es6-promise": "^4.1.1",
+"babel-runtime": "^6.26.0",
+"element-ui": "^1.4.13",
+"vue-resource": "^0.9.3",
+# 2. 保留
+"axios": "^0.16.2",
+"qs": "^6.5.1",
+"clipboard": "^2.0.0",
+"crypto-js": "^3.1.9-1",
+"vue-clipboard2": "0.0.9",
+"vue-core-image-upload": "^2.3.9",
+"vux-uploader": "^0.1.7"
+```
